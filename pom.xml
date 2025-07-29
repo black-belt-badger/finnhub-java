@@ -5,7 +5,7 @@
     <artifactId>finnhub-java</artifactId>
     <packaging>jar</packaging>
     <name>finnhub-java</name>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <url>https://github.com/black-belt-badger/finnhub-java</url>
     <description>FinnHub Java API by Black Belt Badger</description>
     <scm>
@@ -17,7 +17,7 @@
     <licenses>
         <license>
             <name>MIT</name>
-            <url>https://www.apache.org/licenses/LICENSE-2.0.html</url>
+            <url>https://mit-license.org</url>
             <distribution>repo</distribution>
         </license>
     </licenses>

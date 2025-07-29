@@ -2,7 +2,7 @@ apply plugin: 'idea'
 apply plugin: 'eclipse'
 
 group = 'bbb'
-version = '1.0.1'
+version = '1.0.2'
 
 repositories {
     mavenCentral()

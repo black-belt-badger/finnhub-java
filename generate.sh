@@ -5,7 +5,7 @@ BBB_FHJ=black-belt-badger/finnhub-java
 
 GROUP_ID=groupId=bbb
 ARTIFACT_ID=artifactId=finnhub-java
-ARTIFACT_VERSION=artifactVersion=1.0.1
+ARTIFACT_VERSION=artifactVersion=1.0.2
 SNAPSHOT_VERSION=snapshotVersion=false
 ARTIFACT_URL=artifactUrl=https://github.com/$BBB_FHJ
 ARTIFACT_DESCRIPTION=artifactDescription="FinnHub Java API by Black Belt Badger"
@@ -19,7 +19,7 @@ SCM_URL=scmUrl=https://github.com/$BBB_FHJ
 SCM=$SCM_CONNECTION,$SCM_DEVELOPER_CONNECTION,$SCM_URL
 
 LICENSE_NAME=licenseName=MIT
-LICENSE_URL=licenseUrl=https://opensource.org/licenses/MIT
+LICENSE_URL=licenseUrl=https://mit-license.org/
 LICENSE=$LICENSE_NAME,$LICENSE_URL
 
 DEVELOPER_NAME=developerName="Marek Dudek"
@@ -55,7 +55,8 @@ docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
   -o /local/finnhub-java \
   --skip-validate-spec \
   --library webclient \
-  --additional-properties="$ADDITIONAL_PROPERTIES"
+  --additional-properties="$ADDITIONAL_PROPERTIES" \
+  --global-property=licenseName=MIT,licenseUrl=https://mit-license.org/
 
 rm -rf src gradle api docs .openapi-generator .github
 mv finnhub-java/* ./
