@@ -28,18 +28,24 @@ DEVELOPER_ORGANIZATION=developerOrganization="Black Belt Badger"
 DEVELOPER_ORGANIZATION_URL=developerOrganizationUrl=https://black-belt-badger.github.io
 DEVELOPER=$DEVELOPER_NAME,$DEVELOPER_EMAIL,$DEVELOPER_ORGANIZATION,$DEVELOPER_ORGANIZATION_URL
 
+# invokerPackage org.openapitools.client
+# apiPackage     org.openapitools.client.api
+# modelPackage   org.openapitools.client.model
+
+INVOKER_PACKAGE=invokerPackage=bbb.finnhub
 API_PACKAGE=apiPackage=bbb.finnhub.api
 MODEL_PACKAGE=modelPackage=bbb.finnhub.model
-HIDE_GENERATION_TIMESTAMP=hideGenerationTimestamp=true
-ADDITIONAL_PROPERTIES=$API_PACKAGE,$MODEL_PACKAGE
+
+PACKAGES=$API_PACKAGE,$MODEL_PACKAGE,$INVOKER_PACKAGE
+
+USE_TAGS=useTags=true
 
 DATE_LIBRARY=dateLibrary=java8
 LIBRARY=library=vertx
 
 LIBRARIES=$DATE_LIBRARY,$LIBRARY
 
-USE_TAGS=useTags=true
-
+HIDE_GENERATION_TIMESTAMP=hideGenerationTimestamp=true
 ANNOTATION_LIBRARY=annotationLibrary=none
 GENERATION=$ANNOTATION_LIBRARY,$HIDE_GENERATION_TIMESTAMP
 
