@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   StockSymbol.JSON_PROPERTY_SYMBOL2,
   StockSymbol.JSON_PROPERTY_ISIN
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class StockSymbol {
   public static final String JSON_PROPERTY_DESCRIPTION = "description";
   @javax.annotation.Nullable

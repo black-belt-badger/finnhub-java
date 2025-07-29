@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CountryMetadata.JSON_PROPERTY_COUNTRY_RISK_PREMIUM,
   CountryMetadata.JSON_PROPERTY_EQUITY_RISK_PREMIUM
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class CountryMetadata {
   public static final String JSON_PROPERTY_COUNTRY = "country";
   @javax.annotation.Nullable

@@ -1,10 +1,8 @@
-# openapi-java-client
+# finnhub-java
 
 Finnhub API
 
 - API version: 1.0.0
-
-- Build date: 2025-07-29T21:39:04.016977118Z[Etc/UTC]
 
 - Generator version: 7.14.0
 
@@ -42,9 +40,9 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>org.openapitools</groupId>
-  <artifactId>openapi-java-client</artifactId>
-  <version>1.0.0</version>
+  <groupId>bbb</groupId>
+  <artifactId>finnhub-java</artifactId>
+  <version>1.0.1</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -55,12 +53,12 @@ Add this dependency to your project's build file:
 
 ```groovy
   repositories {
-    mavenCentral()     // Needed if the 'openapi-java-client' jar has been published to maven central.
-    mavenLocal()       // Needed if the 'openapi-java-client' jar has been published to the local maven repo.
+    mavenCentral()     // Needed if the 'finnhub-java' jar has been published to maven central.
+    mavenLocal()       // Needed if the 'finnhub-java' jar has been published to the local maven repo.
   }
 
   dependencies {
-     implementation "org.openapitools:openapi-java-client:1.0.0"
+     implementation "bbb:finnhub-java:1.0.1"
   }
 ```
 
@@ -74,7 +72,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-- `target/openapi-java-client-1.0.0.jar`
+- `target/finnhub-java-1.0.1.jar`
 - `target/lib/*.jar`
 
 ## Getting Started

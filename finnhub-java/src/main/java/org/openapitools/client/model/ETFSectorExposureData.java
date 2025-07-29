@@ -30,7 +30,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ETFSectorExposureData.JSON_PROPERTY_INDUSTRY,
   ETFSectorExposureData.JSON_PROPERTY_EXPOSURE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class ETFSectorExposureData {
   public static final String JSON_PROPERTY_INDUSTRY = "industry";
   @javax.annotation.Nullable

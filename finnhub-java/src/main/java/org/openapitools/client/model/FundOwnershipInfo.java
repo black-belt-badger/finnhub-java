@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FundOwnershipInfo.JSON_PROPERTY_FILING_DATE,
   FundOwnershipInfo.JSON_PROPERTY_PORTFOLIO_PERCENT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class FundOwnershipInfo {
   public static final String JSON_PROPERTY_NAME = "name";
   @javax.annotation.Nullable

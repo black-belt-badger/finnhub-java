@@ -30,7 +30,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MarketCapData.JSON_PROPERTY_AT_DATE,
   MarketCapData.JSON_PROPERTY_MARKET_CAPITALIZATION
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class MarketCapData {
   public static final String JSON_PROPERTY_AT_DATE = "atDate";
   @javax.annotation.Nullable

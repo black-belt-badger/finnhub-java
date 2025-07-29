@@ -33,7 +33,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   OwnershipInfo.JSON_PROPERTY_CHANGE,
   OwnershipInfo.JSON_PROPERTY_FILING_DATE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class OwnershipInfo {
   public static final String JSON_PROPERTY_NAME = "name";
   @javax.annotation.Nullable

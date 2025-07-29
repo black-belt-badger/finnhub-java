@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   AIChatBody.JSON_PROPERTY_MESSAGES,
   AIChatBody.JSON_PROPERTY_STREAM
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class AIChatBody {
   public static final String JSON_PROPERTY_MESSAGES = "messages";
   @javax.annotation.Nonnull

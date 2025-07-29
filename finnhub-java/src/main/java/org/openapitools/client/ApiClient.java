@@ -50,7 +50,7 @@ import java.util.regex.Pattern;
 
 import static java.util.stream.Collectors.toMap;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class ApiClient extends JavaTimeFormatter {
 
     protected static final Pattern CONTENT_DISPOSITION_PATTERN = Pattern.compile("filename=['\"]?([^'\"\\s]+)['\"]?");
@@ -635,7 +635,7 @@ public class ApiClient extends JavaTimeFormatter {
     protected WebClient buildWebClient(Vertx vertx, JsonObject config) {
 
         if (!config.containsKey("userAgent")) {
-            config.put("userAgent", "OpenAPI-Generator/1.0.0/java");
+            config.put("userAgent", "OpenAPI-Generator/1.0.1/java");
         }
 
         return WebClient.create(vertx, new WebClientOptions(config));

@@ -41,7 +41,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FilingResponse.JSON_PROPERTY_PAGE_COUNT,
   FilingResponse.JSON_PROPERTY_DOCUMENT_COUNT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class FilingResponse {
   public static final String JSON_PROPERTY_FILING_ID = "filingId";
   @javax.annotation.Nullable

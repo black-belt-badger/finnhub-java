@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   ETFsHoldings.JSON_PROPERTY_NUMBER_OF_HOLDINGS,
   ETFsHoldings.JSON_PROPERTY_HOLDINGS
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class ETFsHoldings {
   public static final String JSON_PROPERTY_SYMBOL = "symbol";
   @javax.annotation.Nullable

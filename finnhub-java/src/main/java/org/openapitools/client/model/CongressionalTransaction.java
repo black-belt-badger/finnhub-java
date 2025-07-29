@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CongressionalTransaction.JSON_PROPERTY_TRANSACTION_DATE,
   CongressionalTransaction.JSON_PROPERTY_TRANSACTION_TYPE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class CongressionalTransaction {
   public static final String JSON_PROPERTY_AMOUNT_FROM = "amountFrom";
   @javax.annotation.Nullable

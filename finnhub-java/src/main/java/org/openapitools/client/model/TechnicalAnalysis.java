@@ -31,7 +31,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   TechnicalAnalysis.JSON_PROPERTY_COUNT,
   TechnicalAnalysis.JSON_PROPERTY_SIGNAL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class TechnicalAnalysis {
   public static final String JSON_PROPERTY_COUNT = "count";
   @javax.annotation.Nullable

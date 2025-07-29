@@ -32,7 +32,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   FDAComitteeMeeting.JSON_PROPERTY_EVENT_DESCRIPTION,
   FDAComitteeMeeting.JSON_PROPERTY_URL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class FDAComitteeMeeting {
   public static final String JSON_PROPERTY_FROM_DATE = "fromDate";
   @javax.annotation.Nullable

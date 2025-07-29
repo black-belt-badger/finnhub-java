@@ -1,37 +1,49 @@
 #!/usr/bin/env bash
 set -euxo pipefail
 
-API_PACKAGE=apiPackage=bbb.finnhub.api
-MODEL_PACKAGE=modelPackage=bbb.finnhub.model
+BBB_FHJ=black-belt-badger/finnhub-java
 
 GROUP_ID=groupId=bbb
 ARTIFACT_ID=artifactId=finnhub-java
 ARTIFACT_VERSION=artifactVersion=1.0.1
-SNAPSHOT_VERSION=snapshotVersion=null
-ARTIFACT_URL=artifactUrl=https://github.com/black-belt-badger/finnhub-java
+SNAPSHOT_VERSION=snapshotVersion=false
+ARTIFACT_URL=artifactUrl=https://github.com/$BBB_FHJ
 ARTIFACT_DESCRIPTION=artifactDescription="FinnHub Java API by Black Belt Badger"
 
-DATE_LIBRARY=dateLibrary=java8
+HEADER=$GROUP_ID,$ARTIFACT_ID,$ARTIFACT_VERSION,$SNAPSHOT_VERSION,$ARTIFACT_URL,$ARTIFACT_DESCRIPTION
 
-DEVELOPER_EMAIL=developerEmail=marek.dudek@gmail.com
-DEVELOPER_NAME=developerName="Marek Dudek"
-DEVELOPER_ORGANIZATION=developerOrganization="Black Belt Badger"
-DEVELOPER_ORGANIZATION_URL=developerOrganizationUrl=https://black-belt-badger.github.io
-
-SCM_CONNECTION=scmConnection=scm:git:git@github.com:black-belt-badger/finnhub-java.git
-SCM_DEVELOPER_CONNECTION=scmDeveloperConnection=scm:git:git@github.com:black-belt-badger/finnhub-java.git
-SCM_URL=scmUrl=https://github.com/black-belt-badger/finnhub-java
-
-LIBRARY=library=vertx
+SCM_BBB_FHJ=scmConnection=scm:git:git@github.com:$BBB_FHJ.git
+SCM_CONNECTION=$SCM_BBB_FHJ
+SCM_DEVELOPER_CONNECTION=$SCM_BBB_FHJ
+SCM_URL=scmUrl=https://github.com/$BBB_FHJ
+SCM=$SCM_CONNECTION,$SCM_DEVELOPER_CONNECTION,$SCM_URL
 
 LICENSE_NAME=licenseName=MIT
 LICENSE_URL=licenseUrl=https://opensource.org/licenses/MIT
+LICENSE=$LICENSE_NAME,$LICENSE_URL
 
-ADDITIONAL_PROPERTIES=$API_PACKAGE,$ARTIFACT_DESCRIPTION,$ARTIFACT_ID,$ARTIFACT_URL,$ARTIFACT_VERSION,\
-$DATE_LIBRARY,$DEVELOPER_EMAIL,$DEVELOPER_NAME,$DEVELOPER_ORGANIZATION,$DEVELOPER_ORGANIZATION_URL,$GROUP_ID\
-$LIBRARY,$LICENSE_NAME,$LICENSE_URL,$MODEL_PACKAGE,$SCM_CONNECTION,$SCM_DEVELOPER_CONNECTION,$SCM_URL,$SNAPSHOT_VERSION
+DEVELOPER_NAME=developerName="Marek Dudek"
+DEVELOPER_EMAIL=developerEmail=marek.dudek@gmail.com
+DEVELOPER_ORGANIZATION=developerOrganization="Black Belt Badger"
+DEVELOPER_ORGANIZATION_URL=developerOrganizationUrl=https://black-belt-badger.github.io
+DEVELOPER=$DEVELOPER_NAME,$DEVELOPER_EMAIL,$DEVELOPER_ORGANIZATION,$DEVELOPER_ORGANIZATION_URL
 
-ADDITIONAL_PROPERTIES=$LIBRARY,$DATE_LIBRARY
+API_PACKAGE=apiPackage=bbb.finnhub.api
+MODEL_PACKAGE=modelPackage=bbb.finnhub.model
+HIDE_GENERATION_TIMESTAMP=hideGenerationTimestamp=true
+ADDITIONAL_PROPERTIES=$API_PACKAGE,$MODEL_PACKAGE
+
+DATE_LIBRARY=dateLibrary=java8
+LIBRARY=library=vertx
+
+LIBRARIES=$DATE_LIBRARY,$LIBRARY
+
+USE_TAGS=useTags=true
+
+ANNOTATION_LIBRARY=annotationLibrary=none
+GENERATION=$ANNOTATION_LIBRARY,$HIDE_GENERATION_TIMESTAMP
+
+ADDITIONAL_PROPERTIES=$LIBRARIES,$HEADER,$SCM,$LICENSE,$DEVELOPER,$GENERATION
 
 rm -fr ./finnhub-java
 

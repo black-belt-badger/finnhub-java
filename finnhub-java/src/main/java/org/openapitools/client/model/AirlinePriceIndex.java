@@ -31,7 +31,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   AirlinePriceIndex.JSON_PROPERTY_PRICE_INDEX,
   AirlinePriceIndex.JSON_PROPERTY_DAILY_AVG_PRICE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class AirlinePriceIndex {
   public static final String JSON_PROPERTY_DATE = "date";
   @javax.annotation.Nullable

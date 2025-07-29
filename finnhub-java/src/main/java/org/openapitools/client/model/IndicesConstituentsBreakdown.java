@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   IndicesConstituentsBreakdown.JSON_PROPERTY_SHARE_CLASS_F_I_G_I,
   IndicesConstituentsBreakdown.JSON_PROPERTY_WEIGHT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class IndicesConstituentsBreakdown {
   public static final String JSON_PROPERTY_SYMBOL = "symbol";
   @javax.annotation.Nullable

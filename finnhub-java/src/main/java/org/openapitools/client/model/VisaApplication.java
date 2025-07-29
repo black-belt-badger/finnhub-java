@@ -51,7 +51,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   VisaApplication.JSON_PROPERTY_WAGE_LEVEL,
   VisaApplication.JSON_PROPERTY_H1B_DEPENDENT
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class VisaApplication {
   public static final String JSON_PROPERTY_YEAR = "year";
   @javax.annotation.Nullable

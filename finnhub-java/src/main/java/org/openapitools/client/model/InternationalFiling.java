@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   InternationalFiling.JSON_PROPERTY_LANGUAGE,
   InternationalFiling.JSON_PROPERTY_COUNTRY
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class InternationalFiling {
   public static final String JSON_PROPERTY_SYMBOL = "symbol";
   @javax.annotation.Nullable

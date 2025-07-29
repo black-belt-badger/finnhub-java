@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   EarningsEstimatesInfo.JSON_PROPERTY_YEAR,
   EarningsEstimatesInfo.JSON_PROPERTY_QUARTER
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class EarningsEstimatesInfo {
   public static final String JSON_PROPERTY_EPS_AVG = "epsAvg";
   @javax.annotation.Nullable

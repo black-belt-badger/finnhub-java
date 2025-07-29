@@ -31,7 +31,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   CompanyNewsStatistics.JSON_PROPERTY_BUZZ,
   CompanyNewsStatistics.JSON_PROPERTY_WEEKLY_AVERAGE
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class CompanyNewsStatistics {
   public static final String JSON_PROPERTY_ARTICLES_IN_LAST_WEEK = "articlesInLastWeek";
   @javax.annotation.Nullable

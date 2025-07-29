@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   LastBidAsk.JSON_PROPERTY_T
 })
 @JsonTypeName("LastBid-Ask")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class LastBidAsk {
   public static final String JSON_PROPERTY_B = "b";
   @javax.annotation.Nullable

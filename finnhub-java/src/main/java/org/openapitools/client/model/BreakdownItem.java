@@ -30,7 +30,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   BreakdownItem.JSON_PROPERTY_ACCESS_NUMBER,
   BreakdownItem.JSON_PROPERTY_BREAKDOWN
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class BreakdownItem {
   public static final String JSON_PROPERTY_ACCESS_NUMBER = "accessNumber";
   @javax.annotation.Nullable

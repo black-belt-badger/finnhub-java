@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   EarningRelease.JSON_PROPERTY_REVENUE_ESTIMATE,
   EarningRelease.JSON_PROPERTY_REVENUE_ACTUAL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class EarningRelease {
   public static final String JSON_PROPERTY_SYMBOL = "symbol";
   @javax.annotation.Nullable

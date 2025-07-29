@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MarketStatus.JSON_PROPERTY_IS_OPEN,
   MarketStatus.JSON_PROPERTY_T
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class MarketStatus {
   public static final String JSON_PROPERTY_EXCHANGE = "exchange";
   @javax.annotation.Nullable

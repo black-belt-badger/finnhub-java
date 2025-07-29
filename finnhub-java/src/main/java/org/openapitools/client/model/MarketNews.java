@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonTypeName;
   MarketNews.JSON_PROPERTY_SUMMARY,
   MarketNews.JSON_PROPERTY_URL
 })
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2025-07-29T21:39:04.016977118Z[Etc/UTC]", comments = "Generator version: 7.14.0")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.14.0")
 public class MarketNews {
   public static final String JSON_PROPERTY_CATEGORY = "category";
   @javax.annotation.Nullable
