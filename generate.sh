@@ -28,13 +28,9 @@ DEVELOPER_ORGANIZATION=developerOrganization="Black Belt Badger"
 DEVELOPER_ORGANIZATION_URL=developerOrganizationUrl=https://black-belt-badger.github.io
 DEVELOPER=$DEVELOPER_NAME,$DEVELOPER_EMAIL,$DEVELOPER_ORGANIZATION,$DEVELOPER_ORGANIZATION_URL
 
-# invokerPackage org.openapitools.client
-# apiPackage     org.openapitools.client.api
-# modelPackage   org.openapitools.client.model
-
-INVOKER_PACKAGE=invokerPackage=bbb.finnhub
-API_PACKAGE=apiPackage=bbb.finnhub.api
-MODEL_PACKAGE=modelPackage=bbb.finnhub.model
+INVOKER_PACKAGE=invokerPackage=bbb.finnhub.client
+API_PACKAGE=apiPackage=bbb.finnhub.client.api
+MODEL_PACKAGE=modelPackage=bbb.finnhub.client.model
 
 PACKAGES=$API_PACKAGE,$MODEL_PACKAGE,$INVOKER_PACKAGE
 
@@ -49,7 +45,7 @@ HIDE_GENERATION_TIMESTAMP=hideGenerationTimestamp=true
 ANNOTATION_LIBRARY=annotationLibrary=none
 GENERATION=$ANNOTATION_LIBRARY,$HIDE_GENERATION_TIMESTAMP
 
-ADDITIONAL_PROPERTIES=$LIBRARIES,$HEADER,$SCM,$LICENSE,$DEVELOPER,$GENERATION
+ADDITIONAL_PROPERTIES=$LIBRARIES,$HEADER,$SCM,$LICENSE,$DEVELOPER,$GENERATION,$PACKAGES
 
 rm -fr ./finnhub-java
 

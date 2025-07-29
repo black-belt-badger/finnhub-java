@@ -127,12 +127,12 @@ Get aggregate signal of multiple technical indicators such as MACD, RSI, Moving 
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -202,12 +202,12 @@ AI Copilot
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -275,12 +275,12 @@ Airline Price Index
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -352,12 +352,12 @@ Retrieve list of US bank branches information for a given symbol.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -425,12 +425,12 @@ Bond price data
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -502,12 +502,12 @@ Get general information of a bond. You can query by FIGI, ISIN or CUSIP. A list 
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -579,12 +579,12 @@ Bond Tick Data
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -660,12 +660,12 @@ Get yield curve data for Treasury bonds.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -733,12 +733,12 @@ Get company basic financials such as margin, P/E ratio, 52-week high/low etc.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -808,12 +808,12 @@ Get company historical quarterly earnings surprise going back to 2000.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -883,12 +883,12 @@ Company Earnings Quality Score
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -958,12 +958,12 @@ Get company&#39;s ebit estimates.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1033,12 +1033,12 @@ Get company&#39;s ebitda estimates.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1108,12 +1108,12 @@ Get company&#39;s EPS estimates.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1183,12 +1183,12 @@ Company ESG Scores
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1256,12 +1256,12 @@ Get a list of company&#39;s executives and members of the Board.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1329,12 +1329,12 @@ Historical ESG Scores
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1402,12 +1402,12 @@ List latest company news by symbol. This endpoint is only available for North Am
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1479,12 +1479,12 @@ Get company peers. Return a list of peers operating in the same country and sect
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1554,12 +1554,12 @@ Get general information of a company. You can query by symbol, ISIN or CUSIP
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1631,12 +1631,12 @@ Get general information of a company. You can query by symbol, ISIN or CUSIP. Th
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1708,12 +1708,12 @@ Get company&#39;s revenue estimates.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1783,12 +1783,12 @@ Get stock trades data disclosed by members of congress.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1860,12 +1860,12 @@ List all countries and metadata.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1929,12 +1929,12 @@ Get real-time updates on the number of COVID-19 (Corona virus) cases in the US w
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1998,12 +1998,12 @@ Get candlestick data for crypto symbols.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2077,12 +2077,12 @@ List supported crypto exchanges
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2146,12 +2146,12 @@ Get crypto&#39;s profile.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2219,12 +2219,12 @@ List supported crypto symbols by exchange
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2292,12 +2292,12 @@ Get historical and coming earnings release. EPS and Revenue in this endpoint are
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2371,12 +2371,12 @@ Earnings Call Audio Live
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2448,12 +2448,12 @@ Economic Calendar
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2523,12 +2523,12 @@ List codes of supported economic data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2592,12 +2592,12 @@ Get economic data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2665,12 +2665,12 @@ Get ETF country exposure data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2740,12 +2740,12 @@ Get full ETF holdings/constituents. This endpoint has global coverage. Widget on
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2819,12 +2819,12 @@ Get ETF profile information. This endpoint has global coverage. A list of suppor
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2894,12 +2894,12 @@ Get ETF sector exposure data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2969,12 +2969,12 @@ FDA&#39;s advisory committees are established to provide functions which support
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3038,12 +3038,12 @@ List company&#39;s filing. Limit to 250 documents at a time. This data is availa
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3121,12 +3121,12 @@ Get sentiment analysis of 10-K and 10-Q filings from SEC. An abnormal increase i
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3194,12 +3194,12 @@ Financial Statements
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3271,12 +3271,12 @@ Get financials as reported. This data is available for bulk download on &lt;a hr
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3354,12 +3354,12 @@ Get candlestick data for forex symbols.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3433,12 +3433,12 @@ List supported forex exchanges
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3502,12 +3502,12 @@ Get rates for all forex pairs. Ideal for currency conversion
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3577,12 +3577,12 @@ List supported forex symbols.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3650,12 +3650,12 @@ Get a full list fund and institutional investors of a company in descending orde
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3725,12 +3725,12 @@ Download Filings
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3792,12 +3792,12 @@ Global Filings Search
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3865,12 +3865,12 @@ Search Filter
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -3940,12 +3940,12 @@ Get historical employee count for global companies.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4017,12 +4017,12 @@ Get historical market cap data for global companies.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4094,12 +4094,12 @@ Get a list of index&#39;s constituents. A list of supported indices for this end
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4167,12 +4167,12 @@ Get full history of index&#39;s constituents including symbols and dates of join
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4240,12 +4240,12 @@ Get insider sentiment data for US companies calculated using method discussed &l
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4317,12 +4317,12 @@ Company insider transactions data sourced from &lt;code&gt;Form 3,4,5&lt;/code&g
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4394,12 +4394,12 @@ Get a list institutional investors&#39; positions for a particular stock overtim
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4473,12 +4473,12 @@ Get the holdings/portfolio data of institutional investors from 13-F filings. Li
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4550,12 +4550,12 @@ Get a list of well-known institutional investors. Currently support 60+ profiles
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4623,12 +4623,12 @@ List filings for international companies. Limit to 500 documents at a time. Thes
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4702,12 +4702,12 @@ Investment Themes (Thematic Investing)
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4775,12 +4775,12 @@ Get recent and upcoming IPO.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4850,12 +4850,12 @@ Get a list of ISIN changes for EU-listed securities. Limit to 2000 events at a t
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4925,12 +4925,12 @@ Get a list of holidays for global exchanges.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -4998,12 +4998,12 @@ Get latest market news.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5073,12 +5073,12 @@ Get current market status for global exchanges (whether exchanges are open or cl
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5146,12 +5146,12 @@ Get Mutual Funds country exposure data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5221,12 +5221,12 @@ Get EET data for EU funds. For PAIs data, please see the EET PAI endpoint.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5294,12 +5294,12 @@ Get EET PAI data for EU funds.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5367,12 +5367,12 @@ Get full Mutual Funds holdings/constituents. This endpoint covers both US and gl
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5444,12 +5444,12 @@ Get mutual funds profile information. This endpoint covers both US and global mu
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5519,12 +5519,12 @@ Get Mutual Funds sector exposure data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5594,12 +5594,12 @@ Get company&#39;s news sentiment and statistics. This endpoint is only available
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5667,12 +5667,12 @@ Get a full list of shareholders of a company in descending order of the number o
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5742,12 +5742,12 @@ Run pattern recognition algorithm on a symbol. Support double top/bottom, triple
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5817,12 +5817,12 @@ Major Press Releases
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5894,12 +5894,12 @@ Get company price performance statistics such as 52-week high/low, YTD return an
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -5969,12 +5969,12 @@ Get latest price target consensus.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6042,12 +6042,12 @@ Quote
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6115,12 +6115,12 @@ Get latest analyst recommendation trends for a company.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6188,12 +6188,12 @@ Revenue Breakdown
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6263,12 +6263,12 @@ Revenue Breakdown &amp; KPI
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6336,12 +6336,12 @@ Search In Filing
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6409,12 +6409,12 @@ Get ratios for different sectors and regions/indices.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6482,12 +6482,12 @@ Similarity Index
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6559,12 +6559,12 @@ Social Sentiment
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6636,12 +6636,12 @@ Get global dividends data.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6709,12 +6709,12 @@ Get last bid/ask data for US stocks.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6782,12 +6782,12 @@ Stock Candles
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6861,12 +6861,12 @@ Get dividends data for common stocks going back 30 years.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -6938,12 +6938,12 @@ Get a list of reported lobbying activities in the Senate and the House.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7015,12 +7015,12 @@ Historical NBBO
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7094,12 +7094,12 @@ Company Presentation
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7167,12 +7167,12 @@ Get splits data for stocks.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7244,12 +7244,12 @@ List supported stocks. We use the following symbology to identify stocks on Finn
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7323,12 +7323,12 @@ Tick Data
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7402,12 +7402,12 @@ Get a list of government&#39;s spending activities from USASpending dataset for 
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7479,12 +7479,12 @@ List USPTO patents for companies. Limit to 250 records per API call.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7556,12 +7556,12 @@ Get a list of H1-B and Permanent visa applications for companies from the DOL. T
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7633,12 +7633,12 @@ Supply Chain Relationships
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7706,12 +7706,12 @@ Get support and resistance levels for a symbol.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7781,12 +7781,12 @@ Get a list of symbol changes for US-listed, EU-listed, NSE and ASX securities. L
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7856,12 +7856,12 @@ Search for best-matching symbols based on your query. You can input anything fro
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -7931,12 +7931,12 @@ Return technical indicator with price data. List of supported indicators can be 
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -8014,12 +8014,12 @@ Earnings Call Transcripts
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -8087,12 +8087,12 @@ List earnings call transcripts&#39; metadata. This endpoint is available for US,
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -8160,12 +8160,12 @@ Get latest stock upgrade and downgrade.
 
 ```java
 // Import classes:
-import org.openapitools.client.ApiClient;
-import org.openapitools.client.ApiException;
-import org.openapitools.client.Configuration;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.models.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.ApiClient;
+import bbb.finnhub.client.ApiException;
+import bbb.finnhub.client.Configuration;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.models.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class Example {
     public static void main(String[] args) {

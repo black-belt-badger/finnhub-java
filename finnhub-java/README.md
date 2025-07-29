@@ -81,10 +81,10 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import org.openapitools.client.*;
-import org.openapitools.client.auth.*;
-import org.openapitools.client.model.*;
-import org.openapitools.client.api.DefaultApi;
+import bbb.finnhub.client.*;
+import bbb.finnhub.client.auth.*;
+import bbb.finnhub.client.model.*;
+import bbb.finnhub.client.api.DefaultApi;
 
 public class DefaultApiExample {
 
