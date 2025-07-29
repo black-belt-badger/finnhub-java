@@ -56,3 +56,12 @@ docker run --rm -v ${PWD}:/local openapitools/openapi-generator-cli generate \
   --skip-validate-spec \
   --library webclient \
   --additional-properties="$ADDITIONAL_PROPERTIES"
+
+rm -rf src gradle api docs .openapi-generator .github
+mv finnhub-java/* ./
+shopt -s dotglob nullglob
+for f in finnhub-java/.[!.]* finnhub-java/.??*; do
+  mv "$f" ./ || true
+done
+shopt -u dotglob nullglob
+rm -rf finnhub-java
